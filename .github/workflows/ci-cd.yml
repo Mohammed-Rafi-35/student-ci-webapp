@@ -6,7 +6,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  IMAGE_NAME: student-ci-webapp
+  IMAGE_NAME: student-ci/webapp
 
 jobs:
   build-and-push:
