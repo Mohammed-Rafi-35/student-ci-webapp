@@ -6,3 +6,5 @@ const server = http.createServer((req, res) => {
   res.end('Hello from student-ci-webapp!');
 });
 server.listen(port, () => console.log(`Listening on ${port}`));
+
+// ssh -i ""C:\Users\moham\Downloads\student-ci-key.pem"" ec2-user@52.90.21.101
